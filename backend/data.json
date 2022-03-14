@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "title": "Empanadas",
+        "price": 2000,
+        "quantity": 4,
+        "completed": true
+    },
+    {
+        "id": "2",
+        "title": "Maquillaje",
+        "price": 50000,
+        "quantity": 6,
+        "completed": false
+    }
+]
