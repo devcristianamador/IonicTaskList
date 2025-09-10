@@ -53,7 +53,6 @@ async function save() {
 async function open() {
     const res = await readFile('data.json', 'utf-8');
     items = JSON.parse(res);
-    console.log('open', items);
 }
 
 

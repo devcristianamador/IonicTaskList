@@ -48,9 +48,9 @@ export class ItemService {
     return this.http.post<Item>(this.url, item, this.httpOptions)
   }
   toggleItem(item: Item): Observable<Item> {
-    return this.http.put<Item>(this.url + item.id, item, this.httpOptions);
+    return this.http.put<Item>(this.url+"/" + item.id, item, this.httpOptions);
   }
   deleteItem(item: Item): Observable<Item> {
-    return this.http.delete<Item>(this.url + item.id);
+    return this.http.delete<Item>(this.url+"/" + item.id);
   }
 }

@@ -1,16 +1,1 @@
-[
-    {
-        "id": "1",
-        "title": "Empanadas",
-        "price": 2000,
-        "quantity": 4,
-        "completed": true
-    },
-    {
-        "id": "2",
-        "title": "Maquillaje",
-        "price": 50000,
-        "quantity": 6,
-        "completed": false
-    }
-]
+[{"id":"b833f86a-6335-45c9-b65e-1391c9ac0ab5","title":"Empanadas","price":"12000","quantity":"2","completed":false},{"id":"2","title":"Maquillaje","price":50000,"quantity":6,"completed":false}]
